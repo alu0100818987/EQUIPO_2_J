@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.13)  4 APR 2014 10:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  7 APR 2014 18:12
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -95,21 +95,43 @@ LaTeX Warning: You have requested package `templates/algorithm',
 
 Package: algorithm 
 Document Style `algorithm' - floating environment
-(/usr/share/texmf-texlive/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count91
-\float@exts=\toks18
-\float@box=\box26
-\@float@everytoks=\toks19
-\@floatcapt=\box27
-)
+
+! LaTeX Error: File `float.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks20
-\c@algorithm=\count92
-)
-(./templates/algorithmic.sty
+! Undefined control sequence.
+<recently read> \floatstyle 
+                            
+l.76 \floatstyle
+                {\ALG@floatstyle}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \floatstyle{\ALG@floatstyle
+                                }
+? 
+! Undefined control sequence.
+<argument>  \newfloat 
+                      {algorithm}{htbp}{loa} 
+l.92 }
+      
+? 
+! Undefined control sequence.
+l.93 \floatname
+               {algorithm}{\ALG@name}
+? 
+) (./templates/algorithmic.sty
 
 LaTeX Warning: You have requested package `templates/algorithmic',
                but the package provides `algorithmic'.
@@ -118,20 +140,20 @@ Package: algorithmic 2006/06/02
 Document Style `algorithmic' - environment
 (/usr/share/texmf-texlive/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count93
-\calc@Bcount=\count94
+\calc@Acount=\count91
+\calc@Bcount=\count92
 \calc@Adimen=\dimen108
 \calc@Bdimen=\dimen109
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count95
+\calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
-\c@ALC@line=\count96
-\c@ALC@rem=\count97
-\c@ALC@depth=\count98
+\c@ALC@line=\count94
+\c@ALC@rem=\count95
+\c@ALC@depth=\count96
 \ALC@tlm=\skip46
 \algorithmicindent=\skip47
 ) (./templates/multirow.sty
@@ -202,11 +224,7 @@ Cap\'{\i }tulo 1.
 
 ]
 Cap\'{\i }tulo 2.
-(./tex/cap2.tex
-
-LaTeX Warning: Citation `Lam:86' on page 2 undefined on input line 14.
-
-) [2
+(./tex/cap2.tex) [2
 
 ]
 Cap\'{\i }tulo 3.
@@ -230,18 +248,14 @@ Ap\'{e}ndice B.
 
 ]) [9
 
-] (./memte.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1768 strings out of 495062
- 21415 string characters out of 1182644
- 75798 words of memory out of 3000000
- 4900 multiletter control sequences out of 15000+50000
+ 1699 strings out of 495062
+ 20505 string characters out of 1182644
+ 74332 words of memory out of 3000000
+ 4834 multiletter control sequences out of 15000+50000
  13237 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,208b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,208b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (17 pages, 15428 bytes).
+Output written on memte.dvi (17 pages, 15484 bytes).
