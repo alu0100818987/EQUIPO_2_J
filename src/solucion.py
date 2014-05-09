@@ -3,17 +3,19 @@
 
 import math
 from sympy import *
+import time
   
 def factorial(n):
    if n <= 1:
      return 1
    else:
-     prod = n*factorial(n-1)
+     prod = n*factorial(n-1) 
      return prod
 
 def taylor(n,x,a):
+  inicio=time.time()
   c = Symbol('c')
-  funcion = sin(c)
+  funcion = asin(c)
   suma=funcion.evalf(subs={c:a})
   for i in range (1,n+1):
     derv = diff(funcion, c)
@@ -21,31 +23,39 @@ def taylor(n,x,a):
     resultado = (termino/factorial(i))*((x-a)**i)
     suma = suma + resultado
     funcion = derv
-    return taylor 
-    
+  fin=time.time()
+  t=fin-inicio
+  print 'Tiempo que tarda en sumar %f' %(t)
+  return suma 
+  
 def error(n,x,a):
+  inicio=time.time()
   c = Symbol('c')
-  funcion = sin(c)
-  f = funcion.evalf(subs={c: centro})
-  suma = f
+  funcion = asin(c)
+  f= funcion.evalf(subs={c:a})
+  fun = funcion.evalf(subs={c:a})
+  suma = funcion.evalf(subs={c:a})
   for i in range (1,x + 1):
-    derv = diff(f, c)
-    termino = derv.evalf(subs={c: centro})
+    derv = diff(funcion, c)
+    termino = derv.evalf(subs={c:a})
     resultado = (termino / factorial(i)) * ((x - a) ** i)
     suma = suma + resultado
     f = derv
-  e = f - suma
-  print 'El valor de la funcion original sin(%f) es igual a %f ' % (a, f)
-  print 'El Polinomio de Taylor de grado n=%d en el punto centro c=%f evaluada en el punto x=%f es igual a %f' % (x, a, n, suma)
-  print 'El Error de la funcion original con el Polinomio de Taylor es: error=%f' % e
+  error = fun - suma
+  fin=time.time()
+  timp=fin-inicio
+  print 'tiempo en calcular el error %f' %(timp)
   return error   
 
     
 if __name__ == "__main__":
   n = int(raw_input("Introduzca el grado del polinomio:"))
-  x = float(raw_input("Introduzca el punto donde se evalua el polinomio:"))
+  x = int(raw_input("Introduzca el punto donde se evalua el polinomio:"))
   a = float(raw_input("Introduzca el punto central donde se desea evaluar el polinomio:"))
   
-
+suma = taylor(n,x,a)
+print suma
+error = error(n,x,a)
+print error
 
 
