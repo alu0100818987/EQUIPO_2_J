@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  7 APR 2014 18:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  8 MAY 2014 22:18
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -95,43 +95,21 @@ LaTeX Warning: You have requested package `templates/algorithm',
 
 Package: algorithm 
 Document Style `algorithm' - floating environment
-
-! LaTeX Error: File `float.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+)
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-! Undefined control sequence.
-<recently read> \floatstyle 
-                            
-l.76 \floatstyle
-                {\ALG@floatstyle}
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 \floatstyle{\ALG@floatstyle
-                                }
-? 
-! Undefined control sequence.
-<argument>  \newfloat 
-                      {algorithm}{htbp}{loa} 
-l.92 }
-      
-? 
-! Undefined control sequence.
-l.93 \floatname
-               {algorithm}{\ALG@name}
-? 
-) (./templates/algorithmic.sty
+\@float@every@algorithm=\toks20
+\c@algorithm=\count92
+)
+(./templates/algorithmic.sty
 
 LaTeX Warning: You have requested package `templates/algorithmic',
                but the package provides `algorithmic'.
@@ -140,20 +118,20 @@ Package: algorithmic 2006/06/02
 Document Style `algorithmic' - environment
 (/usr/share/texmf-texlive/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count91
-\calc@Bcount=\count92
+\calc@Acount=\count93
+\calc@Bcount=\count94
 \calc@Adimen=\dimen108
 \calc@Bdimen=\dimen109
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count93
+\calc@Ccount=\count95
 \calc@Cskip=\skip45
 )
-\c@ALC@line=\count94
-\c@ALC@rem=\count95
-\c@ALC@depth=\count96
+\c@ALC@line=\count96
+\c@ALC@rem=\count97
+\c@ALC@depth=\count98
 \ALC@tlm=\skip46
 \algorithmicindent=\skip47
 ) (./templates/multirow.sty
@@ -180,10 +158,6 @@ LaTeX Font Info:    ... okay on input line 87.
 File: images/logotipo-secundario-ULL.eps Graphic file (type eps)
 
 <images/logotipo-secundario-ULL.eps>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 111.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -224,26 +198,42 @@ Cap\'{\i }tulo 1.
 
 ]
 Cap\'{\i }tulo 2.
-(./tex/cap2.tex) [2
+(./tex/cap2.tex
+Overfull \hbox (58.41003pt too wide) detected at line 31
+\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.9
+5 ) = \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 a\OT1/cmr/m/
+n/10.95 ) + \OML/cmm/m/it/10.95 f[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 a\OT
+1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/1
+0.95 a\OT1/cmr/m/n/10.95 ) + ([])!\OML/cmm/m/it/10.95 f[]\OT1/cmr/m/n/10.95 (\O
+ML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.
+95 ^^@ \OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 )[] + \OML/cmm/m/it/10.95 ::: \O
+T1/cmr/m/n/10.95 + ([])!\OML/cmm/m/it/10.95 f[]n\OT1/cmr/m/n/10.95 )(\OML/cmm/m
+/it/10.95 a\OT1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \
+OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 )[] + ([])\OML/cmm/m/it/10.95 f[]n \OT1/
+cmr/m/n/10.95 + 1)(\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.9
+5 x \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 )[]\OML/cmm
+/m/it/10.95 n \OT1/cmr/m/n/10.95 + 1)
+ []
 
-]
+[2
+
+]) [3]
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
 File: images/figura1.eps Graphic file (type eps)
  <images/figura1.eps> (./tables/table.tex)
 File: images/imagen1.eps Graphic file (type eps)
  <images/imagen1.eps>
-[3
+[4
 
-]) [4]
+]) [5]
 Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [5
-
-] [6
+(./tex/cap4.tex) [6
 
 ]
 Ap\'{e}ndice A.
 (./tex/apendice1.tex) [7
+
 
 ]
 Ap\'{e}ndice B.
@@ -251,18 +241,14 @@ Ap\'{e}ndice B.
 
 ]) [9
 
-] (./memte.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1703 strings out of 495062
- 20544 string characters out of 1182644
- 75332 words of memory out of 3000000
- 4837 multiletter control sequences out of 15000+50000
- 13237 words of font info for 48 fonts, out of 3000000 for 9000
+ 1765 strings out of 495062
+ 21357 string characters out of 1182644
+ 76798 words of memory out of 3000000
+ 4897 multiletter control sequences out of 15000+50000
+ 12622 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,208b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,605b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (17 pages, 16532 bytes).
+Output written on memte.dvi (17 pages, 17736 bytes).

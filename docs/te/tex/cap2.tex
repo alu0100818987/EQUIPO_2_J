@@ -4,25 +4,28 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-En este capítulo se han de presentar los antecedentes teóricos y prácticos que
-apoyan el tema objeto de la investigación.
+
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{Primer apartado del segundo capítulo}
+\section{El por qué de el método de Taylor}
 \label{2:sec:1}
-  En \LaTeX{}~\cite{Lamport:LDP94} es sencillo escribir expresiones
-  matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
-  y deben ser escritas entre dos símbolos \$.
-  Los superíndices se obtienen con el símbolo \^{}, y 
-  los subíndices con el símbolo \_.
-  Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
-  También se pueden escribir formulas centradas:
-  \[h^2=a^2 + b^2\]
-  
-  
+  La función $p(x)=a_0+a_1x+a_2x^2+ ... +a_nx^n$, en la que los coeficientes $a_k$ son constantes, se llama polinomio de grado n.En particular $y=ax+b$ es un polinomio de grado 1, de los más sencillos, por lo que calcular su valor en fácil. Sin embargo, calcular el valor par
+a otras funciones como log(x), sen(x), $e^X$, ... es mucho más complicado. Por tanto, se utilizan metodos desarrollados por el análisis matemático, como el método de Taylor.
 
-\section{Segundo apartado del segundo capítulo}
+  
+  \section{Segundo apartado del segundo capítulo}
 \label{2:sec:2}
-  Primer párrafo de la segunda sección.
+  Para poder usar este método deben cumplirse dos condiciones:
+\begin{itemize}
+  \item Sea f(x) una función continua en [a,b]
+  \item Sea f(x) derivable en (a,b)
+\end{itemize}
+Cuando tengamos un polinomio de primer grado $p_1(x)=f'(a)(x-a)$ tendrá el mismo valor que f(x) en el punto x=a. Dando la gráfica es una recta tangente a la gráfica de f(x) en el punto a.\par 
+Es pol¡sible elegir un polinomio de segundo grado, $p_2(x)=f(a)+f'(a)(x-a)+\frac{1}{2}f''(a)(x-a)^2$, tal que en el punto x=a tenga el mismo valor que f(x) y valores también iguales para su primera y segunda derivadas.Se gráfica en el punto a se acercará a la de f(x) más que la anterior. Es natural esperar que si contruimos un polinomio que en x=a tenga las mismas n primeras derivadas que f(x) en el mismo punto, este polinomio se aproximará más a f(x) en los puntos x próximos a a. Así obtenemos la siguiente igualdad aproximada, que es la fórmula de taylor:
+$$f(x)\approx f(a)+f'(a)(x-a)+(\frac{1}{2}!)f''(a)(x-a)^2+ ... + (\frac{1}{n}!)f^(n)(a)(x-a)^n$$
 
+Sin embargo, esto solo se da para polinomios que tengan su derivada hasta n, mientras que para los polinomios que
+ tienen derivada (n+1)-ésima difieren de f(x) en una pequeña cantidad, que denominamos como el error.\par
+ Por ello añadimos un término más, llamado resto, para que el error sea menor:
+ $$f(x)=f(a)+f'(a)(x-a)+(\frac{1}{2})!f''(a)(x-a)^2+...+(\frac{1}{n})!f^(n)(a)(x-a)^n+(\frac{1}{(n+1)!})f^(n+1)(c)(x-a)^(n+1)$$
