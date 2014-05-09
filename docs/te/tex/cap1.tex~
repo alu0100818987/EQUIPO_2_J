@@ -2,14 +2,22 @@
 % Chapter 1: Motivación y Objetivos 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Los objetivos le dan al lector las razones por las que se realizó el
-proyecto o trabajo de investigación.
+%Los objetivos le dan al lector las razones por las que se realizó el
+%proyecto o trabajo de investigación.
 
 %---------------------------------------------------------------------------------
-\section{}
+\section{Motivación}
 \label{1:sec:1}
+Este proyecto o trabajo de investigación se realizó con la finalidad de crear un programa en \textsf{Python} en el que se calcula por el método de Taylor la función de arcseno(x).Además, proponerlo en un informe de tipo \LaTeX{}~\cite{LaTeXpg}, y posteriormente, una presentación en \textsc{Beamer}.
+
 
 %---------------------------------------------------------------------------------
-\section{Sección Dos}
+\section{Objetivos}
 \label{1:sec:2}
 
+Los objetivos de esta practica es aprender a manejar tanto el \textsf{Python}, el \LaTeX{} y el \textsc{Beamer}:\par
+\begin{itemize}
+  \item \textsf{Python}
+  \item \LaTeX{}
+  \item  \textsc{Beamer}
+\end{itemize}

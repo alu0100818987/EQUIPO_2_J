@@ -27,41 +27,27 @@ def taylor(n,x,a):
     funcion = derv
   return suma 
   
-def error(n,x,a):
-  c = Symbol('c')
-  funcion = asin(c)
-  f= funcion.evalf(subs={c:a})
-  fun = funcion.evalf(subs={c:a})
-  suma = funcion.evalf(subs={c:a})
-  for i in range (1,x + 1):
-    derv = diff(funcion, c)
-    termino = derv.evalf(subs={c:a})
-    resultado = (termino / factorial(i)) * ((x - a) ** i)
-    suma = suma + resultado
-    f = derv
-  error = fun - suma
-  return error   
+   
 
     
 if __name__ == "__main__":
   
   n = int(raw_input("Introduzca el grado del polinomio:"))
-  x = int(raw_input("Introduzca el punto donde se evalua el polinomio:"))
+  x = float(raw_input("Introduzca el punto donde se evalua el polinomio:"))
   a = float(raw_input("Introduzca el punto central donde se desea evaluar el polinomio:"))
   if (abs(a)>1)or(abs(x)>1):
     print 'Debe introducir valores de a entre [-1,1]'
     a = float(raw_input("Introduzca el punto central donde se desea evaluar el polinomio:"))
-    x = int(raw_input("Introduzca el punto donde se evalua el polinomio:"))
+    x = float(raw_input("Introduzca el punto donde se evalua el polinomio:"))
     
 start=time.time()
 suma = taylor(n,x,a)
 finish=time.time()-start
-error = error(n,x,a)
-e=abs(error)
+error = abs(asin(x)- suma)
 print 'Valor de la aproximacion'
 print suma
 print 'Valor del error'
-print e
+print error
 print 'Tiempo que tarda el programa en ejecutarse'
 print finish
 
@@ -70,7 +56,7 @@ print finish
 g=int(raw_input('Intervalo para el eje de las X: '))
 h=int(raw_input('Intervalo para el eje de las Y: '))
 l=[]
-for i in range (x):
+for i in range (g):
   y=1/np.sin(x)
   l.append(y)
   
@@ -101,6 +87,6 @@ pl.yticks([-h, h])
 
 pl.title("Representacion grafica")
 
-pl.savefig("sencos.eps", dpi=72)
+pl.savefig("grafica.eps", dpi=72)
 
 pl.show()

@@ -11,48 +11,71 @@ análisis de los resultados.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
+A continuación expondremos los pasos que se han seguido en la elaboración del experimento desarrollado para este trabajo de investigación. 
+Nos apoyaremos en gráficos y tablas que les ayudaran a reforzar y aclarar la información desarrollada.
+\subsection{Descripción de los experimentos}
+Para llevar a cabo el método de {\em Taylor}, objetivo principal del informe, se ha empleado la ecuación del método de {\em Taylor}. Recodar que  la función derivada ha sido $f(x)=arcsin(x)$  y que al aplicar la serie de Taylor hemos tenido que calcular hasta la derivada n-ésima y, además, elos factoriales de 1 hasta n.
 
-bla, bla, etc. 
+En relación a la eficiencia del proyecto, se ha analizado el resultado obtenido de la aproximación de Taylor midiendo el error de este con el resultado original de la función. 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
+El material utilizado ha sido el siguiente:
+\begin {itemize}
+\item \underline{Tipo de CPU}: 
+ 
+ 
+ Intel(R) Core(TM) i3-2328M CPU @ 2.20GHz 
 
-bla, bla, etc. 
+\item \underline{Tamaño de la memoria del procesador}: 
+
+
+ 3072 KB
+
+\item \underline{Vendedor GenuineIntel}:
+
+
+Linux
+
+\item \underline{Sistema operativo}:
+
+
+ 66-Ubuntu SMP
+
+\item \underline{Plataforma}:
+
+
+ Linux-3.2.0-59-generic-pae-i686-with-Ubuntu-12.04-precise
+
+\item \underline{Version}:
+
+2.7.3
+\end{itemize}
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 \section{Resultados obtenidos}
 \label{3:sec:3}
+Como resultados de haber  calculado en el algoritmo para cualquiero polinomio obetemos el valor del polinomio con el método de Taylor, el error y el tiempo\footnote{En segundos}  que tarda el algoritmo en calcularlos.
 
-bla, bla, etc. 
 
-
+Como ejemplos de los tiempos y errores en diferentes puntos de un polinomio de grado 3, obtenemos representado en la tabla:
+\newpage
+%------------- c----------------------------------------------------------------
+\input{tables/table.tex}
+%------------------------------------------------------------------------------
+Por cada dato que calculamos obtemos la función representada en una gráfica en dicho punto, como por ejemplo esta gráfica:
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-\caption{Ejemplo de figura}
+\includegraphics[width=0.75\textwidth]{images/grafica.eps}
+\caption{Gráfica de la función arcsin(x)}
 \label{fig:1}
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
-
-
-%------------------------------------------------------------------------------
-\input{tables/table.tex}
-%------------------------------------------------------------------------------
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
-
-bla, bla, etc. 
-
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{images/imagen1.eps}
-\caption{Ejemplo de figura con gráfico}
-\label{fig}
-\end{center}
-\end{figure}

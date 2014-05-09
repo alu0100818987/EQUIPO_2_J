@@ -1,0 +1,9 @@
+@misc{Taylor,
+author = "Mariano Banzo Marraco",
+title = "Series de Taylor",
+note = "http://recursostic.educacion.es/descartes/web/materiales_didacticos/Desarrollo_serie_taylor/Desarrollo_en_serie_de_taylor.htm"
+}
+@misc{PIpg,
+title = "Informacion del numero pi",
+note = "http://es.wikipedia.org/wiki/NC3BAmeroCF80"
+}

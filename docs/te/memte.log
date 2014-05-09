@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  8 MAY 2014 22:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  10 MAY 2014 00:32
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -219,36 +219,45 @@ cmr/m/n/10.95 + 1)(\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.9
 
 ]) [3]
 Cap\'{\i }tulo 3.
-(./tex/cap3.tex
-File: images/figura1.eps Graphic file (type eps)
- <images/figura1.eps> (./tables/table.tex)
-File: images/imagen1.eps Graphic file (type eps)
- <images/imagen1.eps>
-[4
+(./tex/cap3.tex [4
 
-]) [5]
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 61.
+ [5] (./tables/table.tex)
+File: images/grafica.eps Graphic file (type eps)
+ <images/grafica.eps>) [6]
 Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [6
+(./tex/cap4.tex) [7
+
+] [8
 
 ]
 Ap\'{e}ndice A.
-(./tex/apendice1.tex) [7
-
+(./tex/apendice1.tex) [9
 
 ]
 Ap\'{e}ndice B.
-(./tex/apendice2.tex) (./memte.bbl [8
+(./tex/apendice2.tex) (./memte.bbl [10
 
-]) [9
+]
+Overfull \hbox (46.65672pt too wide) in paragraph at lines 11--15
+[]\OT1/cmr/m/n/10.95 .  http://recursostic.educacion.es/descartes/web/materiale
+sdidacticos/Desarrolloserietaylor.htm. 
+ []
+
+) [11
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1765 strings out of 495062
- 21357 string characters out of 1182644
+ 1759 strings out of 495062
+ 21291 string characters out of 1182644
  76798 words of memory out of 3000000
- 4897 multiletter control sequences out of 15000+50000
- 12622 words of font info for 46 fonts, out of 3000000 for 9000
+ 4890 multiletter control sequences out of 15000+50000
+ 13793 words of font info for 50 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,605b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,605b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (17 pages, 17736 bytes).
+Output written on memte.dvi (19 pages, 19708 bytes).
