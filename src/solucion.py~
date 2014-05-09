@@ -13,7 +13,6 @@ def factorial(n):
      return prod
 
 def taylor(n,x,a):
-  inicio=time.time()
   c = Symbol('c')
   funcion = asin(c)
   suma=funcion.evalf(subs={c:a})
@@ -23,13 +22,9 @@ def taylor(n,x,a):
     resultado = (termino/factorial(i))*((x-a)**i)
     suma = suma + resultado
     funcion = derv
-  fin=time.time()
-  t=fin-inicio
-  print 'Tiempo que tarda en sumar %f' %(t)
   return suma 
   
 def error(n,x,a):
-  inicio=time.time()
   c = Symbol('c')
   funcion = asin(c)
   f= funcion.evalf(subs={c:a})
@@ -42,20 +37,29 @@ def error(n,x,a):
     suma = suma + resultado
     f = derv
   error = fun - suma
-  fin=time.time()
-  timp=fin-inicio
-  print 'tiempo en calcular el error %f' %(timp)
   return error   
 
     
 if __name__ == "__main__":
+  
   n = int(raw_input("Introduzca el grado del polinomio:"))
   x = int(raw_input("Introduzca el punto donde se evalua el polinomio:"))
   a = float(raw_input("Introduzca el punto central donde se desea evaluar el polinomio:"))
-  
+  if (abs(a)>1)or(abs(x)>1):
+    print 'Debe introducir valores de a entre [-1,1]'
+    a = float(raw_input("Introduzca el punto central donde se desea evaluar el polinomio:"))
+    x = int(raw_input("Introduzca el punto donde se evalua el polinomio:"))
+    
+start=time.time()
 suma = taylor(n,x,a)
-print suma
+finish=time.time()-start
 error = error(n,x,a)
-print error
+e=abs(error)
+print 'Valor de la aproximacion'
+print suma
+print 'Valor del error'
+print e
+print 'Tiempo que tarda el programa en ejecutarse'
+print finish
 
 
