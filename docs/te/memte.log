@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  10 MAY 2014 19:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.25)  10 MAY 2014 22:12
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -158,20 +158,17 @@ LaTeX Font Info:    ... okay on input line 87.
 File: images/logotipo-secundario-ULL.eps Graphic file (type eps)
 
 <images/logotipo-secundario-ULL.eps>
-File: images/fmatesc.eps Graphic file (type eps)
- <images/fmatesc.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 115.
+(Font)              <10.95> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 115.
+(Font)              <6> on input line 114.
  [1
 
 ] [1] [2
 
-]
-(./memte.toc)
+] (./memte.toc)
 \tf@toc=\write3
 \openout3 = `memte.toc'.
 
@@ -179,7 +176,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [2
 
-] (./memte.lof)
+]
+(./memte.lof)
 \tf@lof=\write4
 \openout4 = `memte.lof'.
 
@@ -365,12 +363,12 @@ sdidacticos/Desarrolloserietaylor.htm.
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1764 strings out of 495062
- 21335 string characters out of 1182644
+ 1762 strings out of 495062
+ 21306 string characters out of 1182644
  76798 words of memory out of 3000000
- 4893 multiletter control sequences out of 15000+50000
+ 4892 multiletter control sequences out of 15000+50000
  13961 words of font info for 51 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,8n,27p,605b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (22 pages, 28240 bytes).
+Output written on memte.dvi (22 pages, 28160 bytes).
