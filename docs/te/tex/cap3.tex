@@ -2,11 +2,6 @@
 % Chapter 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Este capítulo ha de contar con seccciones para la descripción de los experimentos 
-y del material.
-%
-También debe haber una sección para los resultados obtenidos y una última de 
-análisis de los resultados.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
@@ -60,10 +55,9 @@ Linux
 \label{3:sec:3}
 Como resultados de haber  calculado en el algoritmo para cualquiero polinomio obetemos el valor del polinomio con el método de Taylor, el error y el tiempo\footnote{En segundos}  que tarda el algoritmo en calcularlos.
 
-
-Como ejemplos de los tiempos y errores en diferentes puntos de un polinomio de grado 3, obtenemos representado en la tabla:
 \newpage
-%------------- c----------------------------------------------------------------
+Como ejemplos de los tiempos y errores en diferentes puntos de un polinomio de grado 3, obtenemos representado en la tabla anterior.
+
 \input{tables/table.tex}
 %------------------------------------------------------------------------------
 Por cada dato que calculamos obtemos la función representada en una gráfica en dicho punto, como por ejemplo esta gráfica:
@@ -79,3 +73,6 @@ Por cada dato que calculamos obtemos la función representada en una gráfica en d
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
+Obsevando detenidamente los resultados obetenidos en la tabla anterior, podemos apreciar que cuando más se parecen el valor del centro(a) y el puento X de la función, disminuye el valor del error entre el polinomio y la aproximación del polinomio. Por otro lado, cuantos más dispares son dichos valores mayor es el error entre el polinomio y el polinomio de aproximación.  
+
+Esto se da en los ejemplos propuestos en la tabla, en donde utilizamos un polinomio de grado 3 para todos los casos. Observamos que en primer caso, el valor del centro es 1 y el de la x es -1, el caso más dispar que puede darse, se obtiene el error más alto. Mientras, en el último caso, donde el valor del centro es 1 y de x es 1 se obtiene un valor 0 del error ya que el valor del centro y el punto X son iguales.

@@ -1,24 +1,50 @@
-\section{Otro apendice: Seccion 1}
+\section{Otro apendice: Algoritmo}
 \label{Apendice2:label}
 
 \begin{center}
 \begin{footnotesize}
 
 \begin{verbatim}
-Texto
+En la primera parte de algoritmo, hemos importado las diferentes librerias que necesitamos.
+Luego declaramos dos funciones: El la primera calculamos el factorial, que necesitamos para 
+calcular la formula de Taylor, donde podemos ver que solo usamos dos simples condiciones, y 
+despues declaramos la funcion Taylor, para calcularla.
+
+En esta segunda funcion, declaramos un variacle ('c') general que usamos cuando evaluamos la
+funcion en el centro(a). Para luego usarlo en un bucle "for" donde calcula la deriva de la funcion,
+la evalua en el punto centro(a) y opera, invocando a la funcion factorial, obteniendo la aproximacion
+de funcion. Por ultimo, se iguala la funcion a la deriva para que así siga el bucle tantas veces
+como el valor del grado(n).
+
+Y como resultado se devuelve el resultado de la suma con un "return suma".
+
+  
+Entonces en esta segunda parte, se piden los valores del grado(n), el punto(x) y el centro(a), aunque
+se vuelven a pedir los valores de x y a si no estan entre el intervalos [-1,1].Depues, se declara una 
+variable inicial para empezar a medir el tiempo que tarda el programa en ejecutarse. Se invoca a la funcion
+principal, taylor, y se calcula con los valores que se hallan introducido. Y se declara otra variable final 
+en la que se obtiene el valor del tiempo que ha tardado.
+
+Luego, se calcula el error con un valor absoluto(para que no de valores negativos) entre el valor exacto 
+de la funcion menos la aproximacion de dicha funcion. Finalmente, se imprimen por pantalla todos los valores.
 \end{verbatim}
 
 \end{footnotesize}
 \end{center}
 
-\section{Otro apendice: Seccion 2}
+\section{Otro apendice: Representacion de la funcion}
 \label{Apendice2:label2}
 
 \begin{center}
 \begin{footnotesize}
 
 \begin{verbatim}
-Texto
+ En la ultima parte del programa, ya que hemos realizado todo lo que nos pedia en el mismo
+ algoritmo, representamos la funcion pidiendo valores para ambos ejes e iniciamos una lista
+ para guardar los valores que se van tomando del "for". Proponemos las medidas de la grafica y 
+ demas detalles, como los colores, la anchura de las lines, ect. Declaramos entre que intervalos
+ debe de darse la grafica y la llamamos "Representacion grafica". Por ultimo, la guardamos en
+ un fichero. 
 \end{verbatim}
 
 

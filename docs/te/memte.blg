@@ -2,44 +2,48 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: memte.aux
 The style file: plain.bst
 Database file #1: bib/ref.bib
-You've used 2 entries,
+Warning--to sort, need author or key in LaTeXpg
+Warning--to sort, need author or key in Python
+Warning--to sort, need author or key in Beamer
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            507 strings with 4246 characters,
-and the built_in function-call counts, 424 in all, are:
-= -- 36
-> -- 14
+            513 strings with 4308 characters,
+and the built_in function-call counts, 693 in all, are:
+= -- 60
+> -- 10
 < -- 0
 + -- 6
-- -- 4
-* -- 12
-:= -- 75
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 8
+- -- 2
+* -- 22
+:= -- 90
+add.period$ -- 9
+call.type$ -- 4
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 14
-empty$ -- 45
-format.name$ -- 4
-if$ -- 89
+cite$ -- 7
+duplicate$ -- 28
+empty$ -- 92
+format.name$ -- 2
+if$ -- 162
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 22
+newline$ -- 20
+num.names$ -- 2
+pop$ -- 44
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 9
 quote$ -- 0
-skip$ -- 12
+skip$ -- 24
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
+substring$ -- 20
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 20
+type$ -- 16
+warning$ -- 3
+while$ -- 2
+width$ -- 5
+write$ -- 32
+(There were 3 warnings)

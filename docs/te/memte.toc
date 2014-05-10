@@ -11,11 +11,11 @@
 \contentsline {section}{\numberline {3.2}Descripci\'on del material}{4}
 \contentsline {section}{\numberline {3.3}Resultados obtenidos}{5}
 \contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{6}
-\contentsline {chapter}{\numberline {4}Conclusiones}{7}
+\contentsline {chapter}{\numberline {4}Conclusiones}{8}
 \contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\'endice 1}{9}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{9}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{9}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{10}
-\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{10}
-\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{10}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{10}
+\contentsline {section}{\numberline {A.1}Algoritmo}{9}
+\contentsline {section}{\numberline {A.2}Representacion de funcion}{10}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{12}
+\contentsline {section}{\numberline {B.1}Otro apendice: Algoritmo}{12}
+\contentsline {section}{\numberline {B.2}Otro apendice: Representacion de la funcion}{12}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{12}

@@ -6,7 +6,7 @@ Como conclusion podemos sacar de este trabajo o informe que usar el metodo de {\
 funcion cuyo calculo seria muy dificil tratandolo con un polinomio simple. Por tanto, este metodo es muy eficiente para funciones complicadas de calcular, aunque halla un minimo error entre la funcion original y la calculada por Taylor.
 
 Segun los resultados obtenidos de las pruebas realizadas, podemos ver que a medida que el centro sea va acercando a el valor de X el tanto por ciento de error va disminuyendo. 
-Cabe destacar que la interpolacion en grado dos y en grado tres son similares.
+Cabe destacar que la interpolación en grado dos y en grado tres son similares.
 
 Tambien cabe destacar, uno de los objetivos principales de la asignatura que era reforzar los conocimiento de \LaTeX{} y \textsc{Beamer} para el trabajo. Ademas, todo esto nos ha proporcionado conocimientos 
 que nos sera util para trabajos futuros como el proyecto final de grado.

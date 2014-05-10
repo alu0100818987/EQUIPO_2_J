@@ -107,7 +107,7 @@
 \begin{center}
         {\Huge Series de Taylor} \\[2.5mm] 
         {\Huge en arcsin(x)} \\[2.5mm]
-        {\Large Ana Gómez Pérez} \\[5mm]
+        {\Large Ana Gómez Pérez, Sara Luis Farreis y Shaila Verona Rodríguez} \\[5mm]
         {\Large \textit{Grupo 2J}} \\[5mm]
 
 
@@ -120,11 +120,17 @@
 \HRule
 \vspace*{\stretch{2}}
 \begin{center}
-  La Laguna, \today 
+  La Laguna, 11 de mayo de 2014 
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+ \newpage
+\begin{abstract}
+ En este trabajo se mostrarán las características del método de {\em Taylor}, 
+ además de ponerla en práctica con una función previamente dada, dando los resultados y del posible error que pueda tener.
+ Además de esto también se detallará dicho métodod.
+ Por otro lado, se hará un programa en {\tt Python}, el cual nos permitirá observar los valores de forma más breve y clara.
+ \end{abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{\pagestyle{empty}\cleardoublepage}
 
@@ -132,7 +138,7 @@
 % No funciona bien \markboth sin "twoside" en \documentclass, pero al
 % ponerlo se dan un montón de errores de underfull \vbox, con lo que no se
 % ha puesto.
-\markboth{Ana Gómez Pérez}{Series de Taylor}
+\markboth{A.Gómez, S.Luis y S.Verona}{Series de Taylor}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Numeracion en romanos
@@ -211,7 +217,7 @@
 \bibliographystyle{plain}
 
 
-\bibliography{bib/references}
+\bibliography{bib/ref}
 \nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

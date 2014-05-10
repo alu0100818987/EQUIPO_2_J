@@ -1,20 +1,18 @@
 %--------------------------------------------------------------------------
-\begin{table}
-\end{table}
 \begin{table}{}
  \begin{center}
   \begin{tabular}{|c|c|c|c|}
    \hline
    X     &a& tiempo            & Error \\ \hline
    -1    &1&0.0295159816742    & 4.51842232203082e+220 \\ \hline
-   -0.25 &1& 0.0272219181061   & 1.76500872128679e+220 \\ \hline
-   -0.2  &1&19                 & 8 \\ \hline     
-   0     &1&21                 & 9 \\ \hline
-   0.2   &1&24                 & 10 \\ \hline
-   0.25  &1&19                 & 8 \\ \hline
-   1     &1&21                 & 9 \\ \hline
+   -0.25 &1&0.0272219181061    & 1.76500872128679e+220 \\ \hline
+   -0.2  &1&0.0301878452301    & 1.62663203764503e+220 \\ \hline     
+   0     &1&0.0254921913147    & 1.12960558199550e+220 \\ \hline
+   0.2   &1&0.0249121189117    & 7.22947572667555e+219 \\ \hline
+   0.25  &1&0.0299370288849    & 6.35403140081687e+219 \\ \hline
+   1     &1&0.0301327705383    & 0 \\ \hline
 \end{tabular}
 \end{center}
-\caption{Mi primer cuadro de datos}
+\caption{Experimentos en el algoritmo}
 \label{tab}
 \end{table}

@@ -1,10 +1,16 @@
 \begin{thebibliography}{1}
 
+\bibitem{Beamer}
+Beamer.
+\newblock http://es.wikipedia.org/wiki/Beamer.
+
 \bibitem{LaTeXpg}
-Nikos Dracos.
-\newblock Manual de latex.
-\newblock
-  http://www.fceia.unr.edu.ar/lcc/cdrom/\\Instalaciones/LaTex/latex.html.
+Manual de latex.
+\newblock http://es.wikipedia.org/wiki/LaTeX.
+
+\bibitem{Python}
+Manual de python.
+\newblock http://es.wikipedia.org/wiki/Python.
 
 \bibitem{Taylor}
 Mariano~Banzo Marraco.

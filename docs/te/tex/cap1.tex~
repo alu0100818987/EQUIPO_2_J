@@ -17,7 +17,9 @@ Este proyecto o trabajo de investigación se realizó con la finalidad de crear un
 
 Los objetivos de esta practica es aprender a manejar tanto el \textsf{Python}, el \LaTeX{} y el \textsc{Beamer}:\par
 \begin{itemize}
-  \item \textsf{Python}
-  \item \LaTeX{}
-  \item  \textsc{Beamer}
+  \item \textsf{Python}es un lenguaje de programación interpretado cuya filosofía hace hincapié en una sintaxis muy limpia y que favorezca un código legible.
+
+Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma.
+  \item \LaTeX{}: Un documento en Latex consiste en un texto propiamente tal y una serie de comandos para el compilador que son los que le van a dar la forma al texto.
+  \item  \textsc{Beamer} es una clase de \LaTeX{} para la creación de presentaciones, funciona con pdflatex.
 \end{itemize}

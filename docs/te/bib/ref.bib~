@@ -4,3 +4,17 @@ title = "Series de Taylor\par",
 note = "http://recursostic.educacion.es/descartes/web/materialesdidacticos/Desarrolloserietaylor.htm"
 }
 
+@misc{LaTeXpg,
+author = "Nikos Dracos",
+title = "Manual de LaTeX",
+note = "http://www.fceia.unr.edu.ar/lcc/cdrom/\\Instalaciones/LaTex/latex.html"
+}
+ @misc{Python,
+ title = "Manual de Python",
+ note = "http://es.wikipedia.org/wiki/Python"
+ }
+ 
+@misc{Beamer,
+title = "Beamer",
+note = "http://es.wikipedia.org/wiki/Beamer"
+}

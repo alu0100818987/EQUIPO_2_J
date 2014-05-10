@@ -44,24 +44,14 @@ $$p(x)=f(a)+\frac{f'(a)}{1!}*(x-a)+\frac{f''(a)}{2!}*(x-a)^2+\frac{f'''(a)}{3!}*
 El metodo de Taylor es una representación de una función como una infinita suma de términos.
 Estos términos se calculan a partir de las derivadas de la función para un determinado valor de la variable (respecto de la cual se deriva), lo que involucra un punto específico sobre la función.
 \end {frame}
-
-
-
-\section{Ejemplo con Taylor}
-
 \begin{frame}
-\frametitle{Ejemplo con Taylor.}
-
-\begin{block}{}
-Al aproximar con Taylor vamos a obtener otras ecuaciones según el error.
-\end{block}
-
+\frametitle{El método de Taylor} 
+como podemos ver en esta función exp(x), donde la aproximación se asmeja a dicha función aunque con un margen de error.
 \begin{figure}[b]
 \begin{center}
-\includegraphics[scale=0.5]{grafica.jpeg}
+\includegraphics[scale=0.4]{taylor.png}
 \end{center}
 \end{figure}
-
 \end{frame}
 
 \section{Código en Python}
@@ -102,6 +92,53 @@ A continuación se muestra el código fuente creado en \textsf{Python} para la r
 \end{figure}
 
 \end{frame}
+
+
+\begin{frame}
+\frametitle{Gráfica obtenida}
+
+\begin{block}{}
+Al aproximar con Taylor vamos a obtener otras ecuaciones según el error.
+\end{block}
+
+\begin{figure}[b]
+\begin{center}
+\includegraphics[scale=0.5]{grafica.jpeg}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+\section{Experimentos realizados}
+
+\begin{frame}
+\frametitle{Experimentos realizados en \textsf{Python}}
+\begin{table}{}
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   X     &a& tiempo            & Error \\ \hline
+   -1    &1&0.0295159816742    & 4.51842232203082e+220 \\ \hline
+   -0.25 &1&0.0272219181061    & 1.76500872128679e+220 \\ \hline
+   -0.2  &1&0.0301878452301    & 1.62663203764503e+220 \\ \hline     
+   0     &1&0.0254921913147    & 1.12960558199550e+220 \\ \hline
+   0.2   &1&0.0249121189117    & 7.22947572667555e+219 \\ \hline
+   0.25  &1&0.0299370288849    & 6.35403140081687e+219 \\ \hline
+   1     &1&0.0301327705383    & 0 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Experimentos en el algoritmo}
+\label{tab}
+\end{table}
+\end{frame}
+\begin{frame}
+\frametitle{Experimentos realizados en \textsf{Python}}
+Obsevando la tabla anterior, podemos apreciar que cuando más se parecen el valor del centro(a) y el puento X de la función, disminuye el valor del error. Por otro lado, cuantos más dispares son dichos valores mayor es el error.\par 
+
+Esto se da en los ejemplos propuestos en la tabla, en donde utilizamos un polinomio de grado 3 para todos los casos. Observamos que en primer caso, el valor del centro es 1 y el de la x es -1, el caso más dispar que puede darse, se obtiene el error más alto. Mientras, en el último caso, donde el valor del centro es 1 y de x es 1 se obtiene un valor 0 del error ya que el valor del centro y el punto X son iguales.
+\end{frame}
+
+
 
 \section{La Bibliografía}
 
