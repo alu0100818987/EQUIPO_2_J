@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{El m\IeC {\'e}todo de Taylor}{6}{0}{1}
+\beamer@sectionintoc {2}{Ejemplo con Taylor}{8}{0}{2}
+\beamer@sectionintoc {3}{C\IeC {\'o}digo en Python}{9}{0}{3}
+\beamer@sectionintoc {4}{La Bibliograf\IeC {\'\i }a}{12}{0}{4}
