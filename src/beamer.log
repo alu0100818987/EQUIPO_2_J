@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.25)  10 MAY 2014 22:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.24)  12 MAY 2014 17:21
 entering extended mode
  %&-line parsing enabled.
 **beamer.tex
@@ -898,7 +898,11 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemeinfolines.
 sty
 Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
-)) (./beamer.aux)
+)) (./beamer.aux
+
+LaTeX Warning: Label `tab' multiply defined.
+
+)
 \openout1 = `beamer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1059,10 +1063,10 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 14.
 
-<ull.jpeg, id=27, 131.41095pt x 135.26535pt>
+<ull.jpeg, id=35, 131.41095pt x 135.26535pt>
 File: ull.jpeg Graphic file (type jpg)
  <use ull.jpeg>
-<indice.jpeg, id=28, 120.45pt x 124.465pt>
+<indice.jpeg, id=36, 120.45pt x 124.465pt>
 File: indice.jpeg Graphic file (type jpg)
  <use indice.jpeg>
 Overfull \hbox (192.04707pt too wide) in paragraph at lines 22--22
@@ -1085,51 +1089,67 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] (./beamer.toc)
 [5
 
+] (./beamer.toc) [6
+
+] (./beamer.toc) [7
+
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 40.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [6
+) [8
 
-] [7
+] [9
 
 ]
-<taylor.png, id=252, 602.25pt x 481.8pt>
+<taylor.png, id=334, 602.25pt x 481.8pt>
 File: taylor.png Graphic file (type png)
  <use taylor.png>
 Overfull \vbox (4.97517pt too high) detected at line 55
  []
 
-[8
-
- <./taylor.png>] <py1.jpeg, id=280, 283.0575pt x 305.64188pt>
-File: py1.jpeg Graphic file (type jpg)
- <use py1.jpeg>
-[9
-
- <./py1.jpeg>] <py2.jpeg, id=308, 502.12593pt x 240.14719pt>
-File: py2.jpeg Graphic file (type jpg)
- <use py2.jpeg>
 [10
 
- <./py2.jpeg>] <py3.jpeg, id=335, 432.11438pt x 194.97844pt>
-File: py3.jpeg Graphic file (type jpg)
- <use py3.jpeg>
-[11
+ <./taylor.png>] <py1.jpeg, id=362, 283.0575pt x 305.64188pt>
+File: py1.jpeg Graphic file (type jpg)
 
- <./py3.jpeg>] <grafica.jpeg, id=361, 433.62pt x 325.215pt>
+<use py1.jpeg> [11
+
+ <./py1.jpeg>] <py2.jpeg, id=390, 502.12593pt x 240.14719pt>
+File: py2.jpeg Graphic file (type jpg)
+
+<use py2.jpeg> [12
+
+ <./py2.jpeg>] <py3.jpeg, id=417, 432.11438pt x 194.97844pt>
+File: py3.jpeg Graphic file (type jpg)
+
+<use py3.jpeg> [13
+
+ <./py3.jpeg>] <grafica.jpeg, id=444, 433.62pt x 325.215pt>
 File: grafica.jpeg Graphic file (type jpg)
 
-<use grafica.jpeg> [12
+<use grafica.jpeg> [14
 
- <./grafica.jpeg>] [13
+ <./grafica.jpeg>] [15
 
-] [14
+] [16
+
+]pdfTeX warning (ext4): destination with the same identifier (name{tab}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.162 \end{frame}
+                  [17
+
+] [18
+
+] [19
 
 ]
 Runaway argument?
@@ -1137,85 +1157,85 @@ Runaway argument?
 ! Paragraph ended before \list was complete.
 <to be read again> 
                    \par 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Extra }, or forgotten \endgroup.
 \thebibliography ...labeltemplate {\@biblabel {#1}
                                                   }}\leftmargin \labelwidth ...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Extra }, or forgotten \endgroup.
 \thebibliography ...abeltemplate {\@biblabel {#1}}
                                                   }\leftmargin \labelwidth \...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Extra }, or forgotten \endgroup.
 \thebibliography ...beltemplate {\@biblabel {#1}}}
                                                   \leftmargin \labelwidth \a...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Extra }, or forgotten \endgroup.
 \thebibliography ...bel \beamer@biblabeltemplate }
                                                   \sloppy \raggedright \club...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \beamer@doifinframe ...eamertermplatebookbibitems 
                                                   \bibitem [Apuntes]{An√°lis...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 
-LaTeX Warning: Command \' invalid in math mode on input line 168.
+LaTeX Warning: Command \' invalid in math mode on input line 203.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 
-LaTeX Warning: Command \' invalid in math mode on input line 168.
+LaTeX Warning: Command \' invalid in math mode on input line 203.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 Missing character: There is no Ë in font cmex10!
@@ -1225,84 +1245,84 @@ Missing character: There is no Ë in font cmex10!
 ! Undefined control sequence.
 \beamer@doifinframe ...eamertermplatebookbibitems 
                                                   \bibitem [Internet]{wikipe...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \beamer@doifinframe ...eamertermplatebookbibitems 
                                                   \bibitem [Internet]{Biblio...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \beamer@doifinframe ...eamertermplatebookbibitems 
                                                   \bibitem [Libro]{Bibliotec...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 
-LaTeX Warning: Command \' invalid in math mode on input line 168.
+LaTeX Warning: Command \' invalid in math mode on input line 203.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 
-LaTeX Warning: Command \' invalid in math mode on input line 168.
+LaTeX Warning: Command \' invalid in math mode on input line 203.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.168 \end{frame}
+l.203 \end{frame}
                  
 ? 
 
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-68.
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
+03.
 
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 168
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 203
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 168.
+LaTeX Font Info:    No file OMScmss.fd. on input line 203.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 168.
+(Font)              for symbol `textperiodcentered' on input line 203.
 
 
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-68.
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
+03.
 
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
-[15
+[20
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1323,12 +1343,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15541 strings out of 495061
- 286063 string characters out of 1182621
+ 15571 strings out of 495061
+ 286342 string characters out of 1182621
  356082 words of memory out of 3000000
- 18252 multiletter control sequences out of 15000+50000
+ 18266 multiletter control sequences out of 15000+50000
  14228 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,16n,60p,431b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1340,9 +1363,9 @@ lic/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on beamer.pdf (15 pages, 396893 bytes).
+Output written on beamer.pdf (20 pages, 432195 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 677 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

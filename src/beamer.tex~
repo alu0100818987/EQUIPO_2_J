@@ -127,7 +127,7 @@ Al aproximar con Taylor vamos a obtener otras ecuaciones según el error.
    1     &1&0.0301327705383    & 0 \\ \hline
 \end{tabular}
 \end{center}
-\caption{Experimentos en el algoritmo}
+\caption{Experimentos en el algoritmo con polinomios de 3 grado}
 \label{tab}
 \end{table}
 \end{frame}
@@ -138,10 +138,45 @@ Obsevando la tabla anterior, podemos apreciar que cuando más se parecen el valo
 Esto se da en los ejemplos propuestos en la tabla, en donde utilizamos un polinomio de grado 3 para todos los casos. Observamos que en primer caso, el valor del centro es 1 y el de la x es -1, el caso más dispar que puede darse, se obtiene el error más alto. Mientras, en el último caso, donde el valor del centro es 1 y de x es 1 se obtiene un valor 0 del error ya que el valor del centro y el punto X son iguales.
 \end{frame}
 
+\section{Experimentos realizados}
 
+\begin{frame}
+\frametitle{Experimentos realizados en \textsf{Python}}
+\begin{table}{}
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   X     &a& tiempo            & Error \\ \hline
+   -1    &1&0.0167179107666    & 2.69599466671506e+67  \\ \hline
+   -0.25 &1&0.0157251358032    & 1.68499666669691e+67  \\ \hline
+   -0.2  &1&0.0181210041046    & 1.61759680002904e+67  \\ \hline     
+   0     &1&0.0201098918915    & 1.34799733335753e+67  \\ \hline
+   0.2   &1&0.0200808048248    & 1.07839786668603e+67  \\ \hline
+   0.25  &1&0.0192070007324    & 1.01099800001815e+67  \\ \hline
+   1     &1&0.0163540840149    & 0 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Experimentos en el algoritmo con polinomios de 1 grado}
+\label{tab}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Experimentos realizados en \textsf{Python}}
+Podemos apreciar semeganza resultado que el experimento anterior. Sin embargo, apreciamos que al tratarse de un polinomio de grado menor se produce un menor error.
+\end{frame}
+
+\section{Conclusiones}
+\begin{frame}
+\frametitle{Conclusiones}
+\begin{block}{}
+Concluimos de los experimentos y gráficas realizados en \textsf{Python} que al aproximar la función se produce un error de medida.
+No obstante, aunque se produzcan erros, el método de Taylor eso muy usado en funciónes dificiles de calcular su valor, ya que su error es mínimo.
+Además, dicho error puede solventarse con el resto de Lagrange.
+\end{block}
+\end{frame}
 
 \section{La Bibliografía}
-
 \begin{frame}
 \frametitle{Bibliografía}
 \begin{thebibliography}

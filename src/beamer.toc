@@ -1,6 +1,8 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
-\beamer@sectionintoc {1}{El m\IeC {\'e}todo de Taylor}{6}{0}{1}
-\beamer@sectionintoc {2}{C\IeC {\'o}digo en Python}{9}{0}{2}
-\beamer@sectionintoc {3}{Experimentos realizados}{13}{0}{3}
-\beamer@sectionintoc {4}{La Bibliograf\IeC {\'\i }a}{15}{0}{4}
+\beamer@sectionintoc {1}{El m\IeC {\'e}todo de Taylor}{8}{0}{1}
+\beamer@sectionintoc {2}{C\IeC {\'o}digo en Python}{11}{0}{2}
+\beamer@sectionintoc {3}{Experimentos realizados}{15}{0}{3}
+\beamer@sectionintoc {4}{Experimentos realizados}{17}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{19}{0}{5}
+\beamer@sectionintoc {6}{La Bibliograf\IeC {\'\i }a}{20}{0}{6}
